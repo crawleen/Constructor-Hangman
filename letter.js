@@ -1,7 +1,6 @@
 var Letter = function(word,guessedLetter){
 	this.word = word;
 	this.letter = guessedLetter;
-	//this.lettersGuessed = [];
 
 	this.positions = function() {
 		var positions = new Array();
